@@ -1,0 +1,14 @@
+datasets==2.19.0
+Jinja2==3.1.2
+ninja==1.11.1.1
+numpy==1.26.3
+pandas==2.2.2
+rich==13.7.1
+tokenizers==0.15.2
+transformers==4.39.3
+ujson==5.9.0
+torch==2.1.2
+tqdm
+modelscope==1.13.3
+accelerate==0.29.3
+flash-attn
