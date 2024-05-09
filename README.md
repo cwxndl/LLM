@@ -444,6 +444,7 @@ python web_demo.py
 
 #### 5.2 监督微调(SFT)-NDLMoe_1.3B-Chat
 NDLMoe_1.3B-Chat的训练语料同上，损失函数下降情况如下图：
+
 ![](./assets/sft_moe_1.3Bv1.png)
 
 
