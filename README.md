@@ -4,7 +4,12 @@ created by NDL
 <p align="center">
         🤗 <a href="https://huggingface.co/Ndlcwx">Hugging Face模型主页</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/profile/Ndlcwx">ModelScope模型主页</a>&nbsp&nbsp 
 <br>
-
+        
+👉 以往项目地址：
+- [机器学习算法复现--正在完善](https://github.com/cwxndl/Machine-Learning-By-Python-R-Matlab)
+        
+- [2023-美赛春季赛解答](https://github.com/cwxndl/2023-MCM-Y)
+        
 😄本项目支持以下任务：
 - 支持预训练
 - 支持增量预训练
@@ -20,7 +25,12 @@ created by NDL
 - [NDLMoe_1.3B-base](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-base/summary):
 - [NDLMoe_1.3B-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-Chat/summary):
 - [NDLMoe_1.3B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-beta-Chat/summary):
+- [基于NDLSLM_0.8B-Chat的Lora-命名实体识别]():待上传
 
+✏️待做任务：
+- DPO任务
+- 部署框架
+- vllm加速框架
 **😊推荐使用Modelscope下载本项目的模型**：
 ```python
 # 例如下载本项目的NDLMoe_1.3B-Chat模型到你的本地文件夹
