@@ -447,6 +447,12 @@ NDLMoe_1.3B-Chat的训练语料同上，损失函数下降情况如下图：
 
 ![](./assets/sft_moe_1.3Bv1.png)
 
+同样的，你可以使用cli_demo.py对此模型进行提问，以下是本人的几个测试结果：
 
+![](./assets/Moe-chat1.png)
+![](./assets/Moe-chat2.png)
+![](./assets/Moe-chat3.png)
+![](./assets/Moe-chat4.png)
+![](./assets/Moe-chat5.png)
 
 
