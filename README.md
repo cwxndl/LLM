@@ -172,7 +172,7 @@ git clone https://www.modelscope.cn/datasets/modelscope/SkyPile-150B.git
 # 快速开始：
 # 首先要先下载您需要的数据到相应的文件夹中
 cd utils
-python datapreprocess.py
+python data_preprocess.py
 #gen_sky('/root/autodl-tmp/sky_new','/root/autodl-tmp/data/sky_new')
 # 以处理天工数据集为例：你需要先将天工数据集下载至文件夹：sky_new内，最终预处理后的数据保存在data/sky_new下面
 ```
