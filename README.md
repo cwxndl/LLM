@@ -466,4 +466,50 @@ NDLMoe_1.3B-Chat的训练语料同上，损失函数下降情况如下图：
 ![](./assets/Moe-chat4.png)
 ![](./assets/Moe-chat5.png)
 
+### 6 对Qwen_1.8B-base进行SFT
+为了验证本项目SFT流程，本人选择了通义千问1.8B的预训练模型（Qwen_1.8B-base）进行全参数微调，使用数据与前面全参数微调的数据保持一致。
+```bash
+# 注意 微调qwen的base模型所需要的finetune文件要稍微改动一下，主要在分词器上面改动：start_id以及end_id,其他基本保持一致
+bash run_qwen_sft.sh
+```
+**Qwen-1.8B-SFT损失下降情况：**
+![](./assets/qwen_1.8_sft.png)
 
+**测试Qwen-1.8B-SFT问答效果：**
+目前本人微调的qwen-1.8B-SFT模型已上传至[modelscope](https://modelscope.cn/models/Ndlcwx/qwen_1.8B-SFT/summary)
+您可以通过直接运行下面代码进行使用：
+
+```python 
+from modelscope import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
+
+tokenizer = AutoTokenizer.from_pretrained("Ndlcwx/qwen_1.8B-SFT", revision='master', trust_remote_code=True)
+
+model = AutoModelForCausalLM.from_pretrained("Ndlcwx/qwen_1.8B-SFT", revision='master', device_map="auto", trust_remote_code=True).eval()
+
+response, history = model.chat(tokenizer, "你好", history=None)
+print(response)
+
+response, history = model.chat(tokenizer, "给我讲一个年轻人奋斗创业最终取得成功的故事。", history=history)
+print(response)
+
+response, history = model.chat(tokenizer, "给这个故事起一个标题", history=history)
+print(response)
+
+response, history = model.chat(tokenizer, "请写一段Python代码", history=history)
+print(response)
+```
+
+```bash
+运行cli_demo.py可以连续的向qwen_1.8B-SFT提出问题
+输入 exit 退出
+输入 cls 清除屏幕内容
+python cli_qwen_demo.py
+```
+这里仅展示部分问题的回答效果：
+![](./assets/qwen_1.8_sft_chat1.png)
+![](./assets/qwen_1.8_sft_chat2.png)
+![](./assets/qwen_1.8_sft_chat3.png)
+![](./assets/qwen_1.8_sft_chat4.png)
+![](./assets/qwen_1.8_sft_chat5.png)
+![](./assets/qwen_1.8_sft_chat6.png)
+**可以看出Qwen-1.8B-SFT的效果还是不错的，毕竟预训练模型得到了充分的训练，拥有一个足够“聪明”的大脑**
