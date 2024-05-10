@@ -17,16 +17,16 @@ created by NDL
 - 支持Lora微调
 
 🏡当前已训练好的模型：
-- [NDLSLM_0.8B-base](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-base/summary):
-- [NDLSLM_0.8B-beta-base](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-beta-base/summary):
-- [NDLSLM_0.8B-Chat](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-Chat/summary):
+- [NDLSLM_0.8B-base](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-base/summary)
+- [NDLSLM_0.8B-beta-base](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-beta-base/summary)
+- [NDLSLM_0.8B-Chat](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-Chat/summary)
 - [NDLSLM_0.8B-Lora-Chat]():待上传
-- [NDLSLM_0.8B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-beta-Chat/summary):
-- [NDLMoe_1.3B-base](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-base/summary):
-- [NDLMoe_1.3B-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-Chat/summary):
-- [NDLMoe_1.3B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-beta-Chat/summary):
+- [NDLSLM_0.8B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLSLM_0.8B-beta-Chat/summary)
+- [NDLMoe_1.3B-base](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-base/summary)
+- [NDLMoe_1.3B-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-Chat/summary)
+- [NDLMoe_1.3B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-beta-Chat/summary)
 - [基于NDLSLM_0.8B-Chat的Lora-命名实体识别]():待上传
-- [使用本项目的SFT框架对Qwen_1.8B-base进行SFT训练的模型](https://modelscope.cn/models/Ndlcwx/qwen_1.8B-SFT/summary)
+- [使用本项目的SFT框架对Qwen_1.8B-base进行SFT训练的模型](https://modelscope.cn/models/Ndlcwx/qwen_1.8B-SFT/summary):2024-5-10更新
 
 ✏️待做任务：
 - DPO任务
