@@ -31,6 +31,7 @@ created by NDL
 - DPO任务
 - 部署框架
 - vllm加速框架
+
 **😊推荐使用Modelscope下载本项目的模型**：
 ```python
 # 例如下载本项目的NDLMoe_1.3B-Chat模型到你的本地文件夹
