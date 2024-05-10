@@ -12,3 +12,9 @@ tqdm
 modelscope==1.13.3
 accelerate==0.29.3
 flash-attn
+tiktoken 
+einops 
+scipy 
+transformers_stream_generator==0.0.4 
+peft 
+deepspeed
