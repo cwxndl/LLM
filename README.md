@@ -26,6 +26,7 @@ created by NDL
 - [NDLMoe_1.3B-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-Chat/summary):
 - [NDLMoe_1.3B-beta-Chat](https://modelscope.cn/models/Ndlcwx/NDLMoe_1.3B-beta-Chat/summary):
 - [基于NDLSLM_0.8B-Chat的Lora-命名实体识别]():待上传
+- [使用本项目的SFT框架对Qwen_1.8B-base进行SFT训练的模型](https://modelscope.cn/models/Ndlcwx/qwen_1.8B-SFT/summary)
 
 ✏️待做任务：
 - DPO任务
@@ -512,4 +513,5 @@ python cli_qwen_demo.py
 ![](./assets/qwen_1.8_sft_chat4.png)
 ![](./assets/qwen_1.8_sft_chat5.png)
 ![](./assets/qwen_1.8_sft_chat6.png)
+
 **可以看出Qwen-1.8B-SFT的效果还是不错的，毕竟预训练模型得到了充分的训练，拥有一个足够“聪明”的大脑**
