@@ -1,6 +1,10 @@
 # SLMs&MOE  
 created by NDL
 
+> [!IMPORTANT]
+> 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），[查看详情](https://github.com/binary-husky/gpt_academic/wiki/Doc2x)  
+> 安装依赖命令：step1:'cd chat-bot ',step2: pip install -r chat-bot-requirement.txt
+
 <p align="center">
         🤗 <a href="https://huggingface.co/Ndlcwx">Hugging Face模型主页</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/profile/Ndlcwx">ModelScope模型主页</a>&nbsp&nbsp 
 <br>
