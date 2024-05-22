@@ -1,0 +1,3 @@
+gradio==4.20.0
+mdtext2html
+pdfplumber==0.11.0
