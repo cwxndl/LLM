@@ -11,7 +11,7 @@ created by NDL
 
 - 聊天机器人示例（测试RAG与api端口）
 <div align="center">
-<img src="./assets/chat_bot1.gif" width="700" >
+<img src="./assets/chat_bot1.gif" width="750" >
 </div>
         
 👉 以往项目地址：
