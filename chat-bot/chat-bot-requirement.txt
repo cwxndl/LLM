@@ -3,4 +3,5 @@ mdtex2html
 pdfplumber==0.11.0
 langchain==0.2.0
 langchain_community==0.2.0
-modelscope
+modelscope==1.14.0
+transformers==4.39.1
