@@ -22,9 +22,28 @@ created by NDL
 
 - 聊天机器人2.0 PDF处理能力示例：
 <div align="center">
-<img src="./assets/PDF.gif" width="750" >
+<img src="./assets/PDF处理.gif" width="750" >
 </div>
 
+- 聊天机器人2.0 markdown处理能力示例：
+<div align="center">
+<img src="./assets/markdown.gif" width="750" >
+</div>
+
+- 聊天机器人2.0 word处理能力示例：
+<div align="center">
+<img src="./assets/word.gif" width="750" >
+</div>
+
+- 聊天机器人2.0 txt处理能力示例：
+<div align="center">
+<img src="./assets/txt.gif" width="750" >
+</div>
+
+- 聊天机器人2.0 多模态对话处理能力示例：
+<div align="center">
+<img src="./assets/multimode.gif" width="750" >
+</div>
 
 👉 以往项目地址：
 - [机器学习算法复现--正在完善](https://github.com/cwxndl/Machine-Learning-By-Python-R-Matlab)
