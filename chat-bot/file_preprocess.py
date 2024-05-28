@@ -1,34 +1,55 @@
-import pdfplumber
-
+'''
+2024-5-23更新：
+更新内容：
+1. 使用langchain框架处理PDF
+2. 增加其他格式的文件处理，如 word,pptx,txt,markdown等
+'''
+from langchain_text_splitters import CharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+from langchain_community.document_loaders import PyPDFLoader
+from docx import Document
+import markdown2
+from bs4 import BeautifulSoup
 
 def process_pdf(pdf_path):
-    with pdfplumber.open(pdf_path) as pdf:
-        all_text = ''  # 用于存储提取的文本内容
-        for i,page in enumerate(pdf.pages):
-            try:
-                text = page.extract_text()
-                if text:
-                    lines = text.split('\n')
-                    # 从第一页开始去除页眉和页脚
-                    text_without_header_footer = '\n'.join(lines[1:-1])  # 去除第一行和最后一行
-                    all_text += text_without_header_footer + '\n\n'
-                # 检查是否存在表格，并仅处理存在表格的页面
-                if page.extract_tables():
-                    for table in page.extract_tables():
-                        markdown_table = ''  # 存储当前表格的Markdown表示
-                        for i, row in enumerate(table):
-                            # 移除空列，这里假设空列完全为空，根据实际情况调整
-                            row = [cell for cell in row if cell is not None and cell != '']
-                            # 转换每个单元格内容为字符串，并用竖线分隔
-                            processed_row = [str(cell).strip() if cell is not None else "" for cell in row]
-                            markdown_row = '| ' + ' | '.join(processed_row) + ' |\n'
-                            markdown_table += markdown_row
-                            # 对于表头下的第一行，添加分隔线
-                            if i == 0:
-                                separators = [':---' if cell.isdigit() else '---' for cell in row]
-                                markdown_table += '| ' + ' | '.join(separators) + ' |\n'
-                        all_text += markdown_table + '\n'
-            except Exception as e:
-                all_text +='\n' 
+    loader = PyPDFLoader(pdf_path, extract_images=True)
+    pages = loader.load_and_split()
+    text = ''
+    for page in pages:
+        text+= page.page_content
+        text+='\n'
+    return text
 
-    return all_text
+def process_txt(txt_path):
+    with open(txt_path,'r',encoding='utf-8') as file:
+        text = file.read()
+        return text
+def process_word(word_path):
+    # 打开Word文档
+    doc = Document(word_path)
+    text = ''
+    for paragraph in doc.paragraphs:
+        # 提取段落文本
+        text_ = paragraph.text.strip()
+        if text_:  # 忽略空段落
+            text+=text_
+            text+='\n'
+    return text
+def process_md(md_path):
+    with open(md_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    # 将Markdown转换为HTML
+    html_content = markdown2.markdown(content)
+    soup = BeautifulSoup(html_content, "html.parser")
+    text = soup.get_text()
+    return text
+
+if __name__ =='__main__':
+    print('开始测试')
+    file = './files//恒立实业：2023年年度报告.pdf'
+    # text1 = process_pdf1(file)
+    # text2 = process_pdf(file)
+    import nltk
+    nltk.download('averaged_perceptron_tagger')
+    data = process_md('./files/demo1.md')
+    print(data)
