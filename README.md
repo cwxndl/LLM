@@ -1,6 +1,9 @@
 # SLMs&MOE  
 created by NDL
-
+<p align="left">
+    <a href="README_CN.md">中文</a>&nbsp ｜ &nbspEnglish&nbsp ｜ &nbsp<a href="README_JA.md">日本語</a> ｜ &nbsp<a href="README_FR.md">Français</a> ｜ &nbsp<a href="README_ES.md">Español</a>
+</p>
+<br><br>
 <p align="center">
         🤗 <a href="https://huggingface.co/Ndlcwx">Hugging Face模型主页</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/profile/Ndlcwx">ModelScope模型主页</a>&nbsp&nbsp 
 <br>
