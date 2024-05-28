@@ -1,4 +1,5 @@
-<br><br>
+# 从零开始预训练专属于自己的分词器/大模型（MOE模型）/SFT流程
+<br>
 <p align="center">
         🤗 <a href="https://huggingface.co/Ndlcwx">Hugging Face模型主页</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/profile/Ndlcwx">ModelScope模型主页</a>&nbsp&nbsp 
 <br>
@@ -23,7 +24,7 @@
 
 ✏️待做任务：
 - DPO任务
-- 部署框架
+- 部署框架（**2024-5-28已完成**）
 - vllm加速框架
 
 **😊推荐使用Modelscope下载本项目的模型**：
