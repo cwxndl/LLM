@@ -1,5 +1,5 @@
 # LLM is all you need 
-## created by NDL  2591248803@qq.com
+created by NDL 
 <p align="left">
     <a href="README_TRAIN.md">从零开始预训练大模型（MOE模型）/SFT/DPO/RLHF</a>&nbsp ｜ &nbsp所有模型预览&nbsp ｜ &nbsp<a href="README_JA.md">天池数据竞赛（待更新）</a> ｜ &nbsp<a href="README_FR.md">多模态大模型（待更新）</a> 
 </p>
@@ -13,8 +13,7 @@
   
 > [!IMPORTANT]
 > - 2024.5.3：开源0.8B decoder-only架构大模型与1.3B MoE大模型预训练/SFT细节，所有模型均支持Lora微调
-> - 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），[查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
-> - 安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt
+> - 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt [查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
 > - 2024.5.28：更新chatbot 2.0:基于通义千问API以及Langchain 全新构建新的webui框架，支持**多模态对话**，**多轮对话**，**多类型文件输入(PDF,markdown,txt,docx)以及图片输入**,相应更快，回答更准确
 
 - 聊天机器人1.0示例（测试RAG与api端口）
@@ -52,4 +51,5 @@
 <img src="./assets/multimode.gif" width="750" >
 </div>
 
+**注意**：如果您对此项目有任何疑问，请联系2591248803@qq.com
  
