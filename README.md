@@ -6,14 +6,20 @@ created by NDL
 <br>
         
 > [!IMPORTANT]
-> 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），[查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
-> 安装依赖命令：step1:'cd chat-bot ',step2: pip install -r chat-bot-requirement.txt
+> - 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），[查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
+> - 安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt
+> - 2024.5.28：更新chatbot 2.0:基于通义千问API以及Langchain 全新构建新的webui框架，支持**多模态对话**，**多轮对话**，**多类型文件输入(PDF,markdown,txt,docx)以及图片输入**,相应更快，回答更准确
 
-- 聊天机器人示例（测试RAG与api端口）
+- 聊天机器人1.0示例（测试RAG与api端口）
 <div align="center">
 <img src="./assets/chat_bot1.gif" width="750" >
 </div>
-        
+
+- 聊天机器人2.0多轮对话能力示例：
+<div align="center">
+<img src="./assets/multi.gif" width="750" >
+</div>
+
 👉 以往项目地址：
 - [机器学习算法复现--正在完善](https://github.com/cwxndl/Machine-Learning-By-Python-R-Matlab)
         
