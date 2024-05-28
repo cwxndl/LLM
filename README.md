@@ -17,8 +17,14 @@ created by NDL
 
 - 聊天机器人2.0多轮对话能力示例：
 <div align="center">
-<img src="./assets/multi.gif" width="750" >
+<img src="./assets/multi1.gif" width="750" >
 </div>
+
+- 聊天机器人2.0 PDF处理能力示例：
+<div align="center">
+<img src="./assets/PDF.gif" width="750" >
+</div>
+
 
 👉 以往项目地址：
 - [机器学习算法复现--正在完善](https://github.com/cwxndl/Machine-Learning-By-Python-R-Matlab)
