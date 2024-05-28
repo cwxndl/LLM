@@ -1,5 +1,5 @@
-# SLMs&MOE  
-created by NDL
+# LLM is all you need 
+created by NDL  2591248803@qq.com
 <p align="left">
     <a href="README_TRAIN.md">从零开始预训练大模型（MOE模型）/SFT/DPO/RLHF</a>&nbsp ｜ &nbsp所有模型预览&nbsp ｜ &nbsp<a href="README_JA.md">天池数据竞赛（待更新）</a> ｜ &nbsp<a href="README_FR.md">多模态大模型（待更新）</a> ｜ &nbsp<a href="README_ES.md">Español</a>
 </p>
