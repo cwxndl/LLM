@@ -13,7 +13,7 @@ created by NDL
   
 > [!IMPORTANT]
 > - 2024.5.3：开源0.8B decoder-only架构大模型与1.3B MoE大模型预训练/SFT细节，所有模型均支持Lora微调
-> - 2024.5.22: 加入基于Gradio与FastAPI搭建的聊天机器人功能，支持上传PDF外挂你的本地知识库（RAG），安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt [查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
+> - 2024.5.22: 更新基于Gradio与FastAPI搭建的聊天机器人1.0，支持上传PDF外挂本地知识库与RAG功能，安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt [查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
 > - 2024.5.28：更新chatbot 2.0:基于通义千问API以及Langchain 全新构建新的webui框架，支持**多模态对话**，**多轮对话**，**多类型文件输入(PDF,markdown,txt,docx)以及图片输入**,相应更快，回答更准确
 
 - 聊天机器人1.0示例（测试RAG与api端口）
@@ -21,6 +21,7 @@ created by NDL
 <img src="./assets/chat_bot1.gif" width="750" >
 </div>
 
+**Chatbot 2.0**:在部署之前需要获得你自己的api_key,[api_key 获取方式](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key?spm=a2c4g.11186623.0.0.6c2774fahtfXdn)
 - 聊天机器人2.0多轮对话能力示例：
 <div align="center">
 <img src="./assets/multi1.gif" width="750" >
