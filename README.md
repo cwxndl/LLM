@@ -15,7 +15,7 @@ created by NDL
 > - 🔥2024.5.3：开源0.8B decoder-only架构大模型与1.3B MoE大模型预训练/SFT细节，所有模型均支持Lora微调
 > - 🔥2024.5.22: 更新基于Gradio与FastAPI搭建的聊天机器人1.0，支持上传PDF外挂本地知识库与RAG功能，安装依赖命令：step1:cd chat-bot ,step2: pip install -r chat-bot-requirement.txt [查看详情](https://github.com/cwxndl/Chat-bot/tree/main)  
 > - 🔥2024.5.28：更新chatbot 2.0:基于通义千问API以及Langchain 全新构建新的webui框架，支持**多模态对话**，**多轮对话**，**多类型文件输入(PDF,markdown,txt,docx)以及图片输入**,相应更快，回答更准确
-> - 🔥2024.6.11: 更新chatbot 3.0:相对于2.0版本做出了以下几点改进：**增加GLM大模型API调用功能**，**支持工具调用**，**RAG检索框架加入重排技术，检索更准确**,**支持文生图**，**支持天气查询**,**支持部分网页链接内容提取总结与相关提问**，**支持文档总结功能**
+> - 🔥2024.6.11: 更新chatbot 3.0:相对于2.0版本做出了以下几点改进：**增加GLM大模型API调用功能**，**支持工具调用**，**RAG检索框架加入重排技术，检索更准确**,**支持文生图**，**支持天气查询**,**支持部分网页链接内容提取总结与相关提问**
 
 - 聊天机器人1.0示例（测试RAG与api端口）
 <div align="center">
