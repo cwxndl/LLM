@@ -1,7 +1,7 @@
 # LLM is all you need 
 created by NDL 
 <p align="left">
-    <a href="README_TRAIN.md">从零开始预训练大模型（MOE模型）/SFT/DPO/RLHF</a>&nbsp ｜ &nbsp聊天机器人/agent&nbsp ｜ &nbsp<a href="README_Tianchi_agent.md">天池数据竞赛（待更新）</a> ｜ &nbsp<a href="README_FR.md">多模态大模型（待更新）</a> 
+    <a href="README_TRAIN.md">从零开始预训练大模型（MOE模型）/SFT/DPO/RLHF</a>&nbsp ｜ &nbsp聊天机器人/agent&nbsp ｜ &nbsp<a href="README_Tianchi_agent.md">博金大模型比赛开源方案</a> ｜ &nbsp<a href="README_FR.md">多模态大模型（待更新）</a> 
 </p>
 <br>
 
