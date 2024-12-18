@@ -1,6 +1,9 @@
 # 博金大模型挑战赛&LLM-agent
 
-## 本项目已开源至官方阿里云博金大模型天池比赛git，[代码参考]([https://github.com/Tongyi-EconML/FinQwen](https://github.com/Tongyi-EconML/FinQwen/tree/main/solutions/7_%E4%B8%8D%E4%BC%9AML/app))
+## 本项目已开源至官方阿里云博金大模型天池比赛git
+
+[代码参考](https://github.com/Tongyi-EconML/FinQwen/tree/main/solutions/7_不ML/app)
+
 ## 本方案最终得分：
 - 团队名称： **不会ML**
 
