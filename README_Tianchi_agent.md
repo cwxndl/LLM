@@ -2,7 +2,7 @@
 
 ## 本项目已开源至官方阿里云博金大模型天池比赛git
 
-[代码参考](https://github.com/Tongyi-EconML/FinQwen/tree/main/solutions/7_不ML/app)
+[代码参考](https://github.com/Tongyi-EconML/FinQwen/tree/main/solutions/7_不会ML/app)
 
 ## 本方案最终得分：
 - 团队名称： **不会ML**
